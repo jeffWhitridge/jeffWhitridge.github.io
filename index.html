@@ -10,6 +10,24 @@
         -moz-column-rule: 2px outset #000000; /* Firefox */
         column-rule: 2px outset #000000;
       }
+      
+table{
+    table-layout:fixed;
+    border-collapse:separate;
+    border-spacing:0px;
+    border-style:hidden;
+}
+td{
+    padding-right:0.25em;
+    vertical-align:top;
+    border:1px dotted orange;
+    border-width:0 1px;
+}
+td:first-child,
+td + td{ border-left:0; }
+td:last-child{ padding-right:0; border-right:0; }
+      
+      
     </style>
   </head>
   <body>
@@ -24,7 +42,7 @@
       </ul>
     </div>
     
-    <!--<table>
+    <table>
       <tr>
         <th>Nano Engineering</th>
         <th>Materials Science</th>
@@ -34,10 +52,46 @@
       </tr>
       <tr>
         <td>•Nano Eng. Physical Principals</td>
+        <td>•Mats. Science & Eng.</td>
+        <td>•Mech. Behavior</td>
+        <td>•Analog Circuits</td>
+        <td>•Quantum</td>
+      </tr>
+      <tr>
         <td>•Nano Eng. Chemical Principals</td>
+        <td>•Physical Props. of Mats.</td>
+        <td> of Materials</td>
+        <td> </td>
+        <td> Physics</td>
+      </tr>
+      <tr>
         <td>•Nano Eng. Biochem. Principals</td>
+        <td>•Thermodynamics of Mats.</td>
+        <td>•Mechanics of</td>
+        <td>•Digial Circuits</td>
+        <td>•Organic</td>
+      </tr>
+      <tr>
         <td>•Modeling Nanoscale Systems</td>
+        <td>•Phase Transform. & Kinetics</td>
+        <td> Nanomaterials</td>
+        <td>•Components &</td>
+        <td> Chem. I.</td>
+      </tr>
+      <tr>
         <td>•Characterization of Nano Sys.</td>
-    </table>-->
+        <td>•Elec., Dielec., & Magnetic</td>
+        <td>•</td>
+        <td> Circuits</td>
+        <td> & II.</td>
+      </tr>
+      <tr>
+        <td>•Synthesis & Fab. of Nano Sys.</td>
+        <td> Props. of Mats.</td>
+        <td>•Fluid Mechanics</td>
+        <td> </td>
+        <td> </td>
+      </tr>
+    </table>
   </body>
 </html>
