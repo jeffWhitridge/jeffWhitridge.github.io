@@ -12,7 +12,7 @@
       }
       thead {font-style:bold,underline;}
 table{
-    table-layout:auto;
+    table-layout:fixed;
     border-collapse:separate;
     border-spacing:0px;
     border-style:hidden;
@@ -20,7 +20,7 @@ table{
 td{
     padding-right:0.25em;
     vertical-align:top;
-    border:1px dotted orange;
+    border:1px dotted black;
     border-width:0 1px;
 }
 td:first-child,
@@ -30,6 +30,7 @@ td:last-child{ padding-right:0; border-right:0; }
       
     </style>
   </head>
+
   <body>
     <div class="coursework">
       <ul>
@@ -42,7 +43,57 @@ td:last-child{ padding-right:0; border-right:0; }
       </ul>
     </div>
     
+    
     <table>
+      <thead>
+      <tr>
+        <th>Nano Engineering</th>
+        <th>Materials Science</th>
+        <th>Mechanics</th>
+        <th>Electrical Engineering</th>
+        <th>Misc.</th>
+      </tr>
+      </thead>
+      <tr>
+        <ul>
+          <li>Nano Eng. Physical Principals</li>
+          <li>Nano Eng. Chemical Principals</li>
+          <li>Nano Eng. Biochem. Principals</li>
+          <li>Modeling Nanoscale Systems</li>
+          <li>Characterization of Nano Sys.</li>
+          <li>Synthesis & Fab. of Nano Sys.</li>
+        </ul>
+      </tr>
+      <tr>
+        <ul>
+          <li>Mats. Science & Eng.</li>
+          <li>Physical Props. of Mats.</li>
+          <li>Thermodynamics of Mats.</li>
+          <li>Phase Transform. & Kinetics</li>
+          <li>Elec., Dielec., & Magnetic Props. of Mats.</li>
+        </ul>
+      </tr>
+      <tr>
+        <ul>
+          <li>Mech. Behavior of Materials</li>
+          <li>Mechanics of Nanomaterials</li>
+          <li>Fluid Mechanics</li>
+        </ul>
+      </tr>
+        <ul>
+          <li>Analog Circuits</li>
+          <li>Digital Circuits</li>
+          <li>Components & Circuits</li>
+        </ul>
+      <tr>
+        <ul>
+          <li>Quantum Physics</li>
+          <li>Organic Chem. I. & II.</li>
+        </ul>
+      </tr>
+    </table>
+    
+    <!--<table>
       <thead>
       <tr>
         <td>Nano Engineering</td>
@@ -94,6 +145,6 @@ td:last-child{ padding-right:0; border-right:0; }
         <td> </td>
         <td> </td>
       </tr>
-    </table>
+    </table>-->
   </body>
 </html>
