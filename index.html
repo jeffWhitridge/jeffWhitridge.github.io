@@ -8,7 +8,7 @@
 <meta name="Description" content="Jeff Whitridge's resume">
 
 <style>
-body{font-size:18px;} /* em unit is based on font-size; e.g. 2em = 2*font-size. */
+body{font-size:17px;} /* em unit is based on font-size; e.g. 2em = 2*font-size. */
 
 *{margin:0; padding:0;} /* Initialize everything with no margin or padding. */
 
@@ -16,27 +16,27 @@ body{margin:1em; display:block;}
 
 xxbody{font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif;}
 xxbody{font-family:Arial,Helvetica,sans-serif;}
-xxbody{font-family:Tahoma,Geneva,sans-serif;}
+body{font-family:Tahoma,Geneva,sans-serif;}
 xxbody{font-family:"Trebuchet MS",Helvetica,sans-serif;}
 xxbody{font-family:Verdana,Geneva,sans-serif;}
 xxbody{font-family:"Lucida Console",Monaco, monospace;}
-body{font-family:"Times New Roman",Times,serif}
-xxbody{font-family:"Palatino Linotype",Palatino,serif}
+xxbody{font-family:"Times New Roman",Times,serif;}
+xxbody{font-family:"Palatino Linotype",Palatino,"Times New Roman",Times,serif;}
 
 h1{letter-spacing:0.02em; word-spacing:0.3em;}
 
-#contactinfo{letter-spacing:0.04em;}
+#contactinfo{letter-spacing:0.06em; margin-top:0.5em;}
 
 hr{margin:0.5em 8% 0 -1.2%;}
 
-h3{margin-top:1em; padding-top:}
+h3{margin:0.28em 0 0.4em 0; font-size:1.3em; text-decoration:underline;}
 
-/* li span{position:relative; left:-1.5em;} */   /* Not Using orig. style. Removes space between original <ul> style bullet and text. */
 ul{list-style-type:none;} /* Remove <ul> list bullets */
 li:before{content:"\2022";} /* Add bullet-character to start of each <li>. (CSS: "\2022" same as HTML: "&bull;") */
 li{text-indent:-0.36em; padding-left:0.36em;} /* Create a hanging-indent to allow only bullet to stick out from rest of paragraph. */
 ul.exp{margin-left:1em;} /* Indentation of bulleted material in Experience section. */
-li.courses{text-indent:-0.86em; padding-left:0.86em;} /* Larger hanging-indent for the coursework table. */
+#coursework li{text-indent:-0.86em; padding-left:0.86em;} /* Larger hanging-indent for the coursework table. */
+#coursework ul{padding:0 0.3em 0 0;}
 
 #textbox{overflow:hidden; width:90%;}
 
@@ -50,7 +50,7 @@ display:flex;
 justify-content:space-between;
 }
 
-.courseworkHeader{font-weight:bold; border-bottom:1px solid #000; margin-right:11%;}
+.courseworkHeader{font-weight:bold; border-bottom:1px solid #000; margin-left:-0.86em;}
 #coursework{
 width:90%;
 /* table-layout:fixed; */
@@ -69,51 +69,50 @@ border-width:0 1px; /* top=0, right=1px */
 #coursework td+td{padding-left:1em;}
 
 
-
 </style>
 </head>
 
 <body>
 <h1>Jeffrey A. Whitridge</h1>
-<p id="contactinfo"> jeffwhitridge@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;(949) 939-7807</p>
+<p id="contactinfo"> jeffwhitridge@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;(949)&nbsp;939-7807</p>
 <hr>
-<h3>EXPERIENCE</h3>
+<h3>Experience</h3>
 <div id="experience">
 <p><strong>Volunteer Research Assistant</strong>, Dr. Fenning Research Group, U.C. San Diego, 2016</p>
 <ul class="exp">
-  <li><span>Assisted postdoctoral researcher investigating the electrochemical reduction of carbon dioxide to hydrocarbons such as methane. The hydrocarbons were measured using gas chromatography and formed at low overpotentials via nanoscale morphological modification of the cathode surface.</span></li>
-  <li><span>Prepared electrolytic solutions and formed structures of Cu, and Cu-Sn-Zn alloys for use as cathode samples.</span></li>
-  <li><span>Used SEM, optical microscopy, and EDX spectroscopy to examine samples.</span></li>
-  <li><span>Proposed, via sketches and computer renderings, a new design for the electrochemical cell which would allow for easier loading of samples and a consistent area of sample exposure, which led to the fabrication of a new more efficient setup.</span></li>
-  <li><span>Modified Matlab files to automatically import integration parameters for various chemicals from a series of ASCII chromatograph output files, and to plot the results for each chemical.</span></li>
-  <li><span>Trained other research assistants.</span></li>
+  <li>Assisted postdoctoral researcher investigating the electrochemical reduction of carbon dioxide to hydrocarbons such as methane. The hydrocarbons were measured using gas chromatography and formed at low overpotentials via nanoscale morphological modification of the cathode surface.</li>
+  <li>Prepared electrolytic solutions and formed structures of Cu, and Cu-Sn-Zn alloys for use as cathode samples.</li>
+  <li>Used SEM, optical microscopy, and EDX spectroscopy to examine samples.</li>
+  <li>Proposed, via sketches and computer renderings, a new design for the electrochemical cell which would allow for easier loading of samples and a consistent area of sample exposure, which led to the fabrication of a new more efficient setup.</li>
+  <li>Modified Matlab files to automatically import integration parameters for various chemicals from a series of ASCII chromatograph output files, and to plot the results for each chemical.</li>
+  <li>Trained other research assistants.</li>
 </ul>
 <p><strong>Volunteer Research Assistant</strong>, Materials Research Center, U.C. San Diego, 2015</p>
 <ul class="exp">
-  <li><span>Assisted in assembling and ordering components for a high-temperature analysis Hopkinson Bar.</span></li>
-  <li><span>Assisted graduate student's research in spark-erosion steel nanoparticle synthesis.</span></li>
-  <li><span>Performed miscellaneous repairs and maintenance around the laboratory.</span></li>
+  <li>Assisted in assembling and ordering components for a high-temperature analysis Hopkinson Bar.</li>
+  <li>Assisted graduate student's research in spark-erosion steel nanoparticle synthesis.</li>
+  <li>Performed miscellaneous repairs and maintenance around the laboratory.</li>
 </ul>
 <p><strong>Tutor</strong>, Learning Assistance Program, Saddleback Community College, 2011</p>
 <ul class="exp">
-  <li><span>Tutored students in mathematics, chemistry, and physics, and acted as a mentor toward other students.</span></li>
+  <li>Tutored students in mathematics, chemistry, and physics, and acted as a mentor toward other students.</li>
 </ul class="exp">
 <p><strong>Draftsman</strong>, Azizi Architects, Inc., 2009</p>
 <ul class="exp">
-  <li><span>Arranged drawings and corrected graphical and typographical errors on construction document sheets in AutoCAD.</span></li>
+  <li>Arranged drawings and corrected graphical and typographical errors on construction document sheets in AutoCAD.</li>
 </ul>
 </div>
 
 <hr>
-<h3>PROGRAMING LANGUAGES &amp; CAD SOFTWARE</h3>
+<h3>Programing Languages &amp; CAD Software</h3>
 <div id="textbox">
-<p style="float:left;">&bull;Python &nbsp;&nbsp;&bull;MATLAB &nbsp;&nbsp;&bull;Javascript &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull;SOLIDWORKS &nbsp;&nbsp;&bull;AutoCAD</p>
+<p style="float:left;">&bull;Python &nbsp;&nbsp;&bull;Matlab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull;SolidWorks &nbsp;&nbsp;&bull;AutoCAD</p>
 <p style="float:right;">(Some familiarity with: &nbsp;&bull;G-Code &nbsp;&nbsp;&bull;C &nbsp;&nbsp;&bull;C++)</p>
 </div>
 
 
 <hr>
-<h3>EDUCATION</h3>
+<h3>Education</h3>
 <p><strong>B.S., Nano Engineering</strong>, with a focus in Materials Science, 2016</p>
 <p style="margin-left:1em;">University of California, San Diego &ndash; Jacobs School of Engineering</p>
 <br>
@@ -121,7 +120,7 @@ border-width:0 1px; /* top=0, right=1px */
 <p style="margin-left:1em;">Saddleback Community College</p>
 
 <hr>
-<h3>SAMPLE OF STUDIED TOPICS</h3>
+<h3>Sample of Studied Topics</h3>
 <div class="topics">
   <span>&bull;PVD</span>
   <span>&bull;CVD</span>
@@ -135,30 +134,30 @@ border-width:0 1px; /* top=0, right=1px */
   <span>&bull;SEM</span>
   <span>&bull;STM</span>
   <span>&bull;TEM</span>
-  <span>&bull;UV-VIS</span>
+  <span>&bull;UV&#8209;VIS</span>
   <span>&bull;XPS</span>
   <span>&bull;XRD</span>
 </div>
 <div class="topics">
   <span>&bull;Plasmonics</span>
   <span>&bull;Semiconductors</span>
-  <span>&bull;Solar Cells</span>
-  <span>&bull;PN-junctions</span>
+  <span>&bull;Solar&nbsp;Cells</span>
+  <span>&bull;PN&#8209;junctions</span>
   <span>&bull;MOSFETs</span>
-  <span>&bull;I-V curves</span>
-  <span>&bull;Density of states</span>
+  <span>&bull;I&#8209;V&nbsp;curves</span>
+  <span>&bull;Density&nbsp;of&nbsp;states</span>
 </div>
 <div class="topics">
-  <span>&bull;Fermi Energy</span>
-  <span>&bull;Intra/Inter molecular forces</span>
+  <span>&bull;Fermi&nbsp;Energy</span>
+  <span>&bull;Intra/Inter&nbsp;molecular&nbsp;forces</span>
   <span>&bull;FDTD</span>
   <span>&bull;Crystallography</span>
   <span>&bull;Diffusion</span>
-  <span>&bull;Seebeck & Peltier effects</span>
+  <span>&bull;Seebeck&nbsp;&amp;&nbsp;Peltier&nbsp;effects</span>
 </div>
 
 <hr>
-<h3>COURSEWORK</h3>
+<h3>Relevant Coursework</h3>
 <!-- Using a table for compatability with IE9 and earlier. -->
 <table id="coursework">
   <tr style="text-align:center;">
@@ -170,36 +169,36 @@ border-width:0 1px; /* top=0, right=1px */
   </tr>
   <tr>
     <td><ul>
-      <li class="courses"><span>Nano Eng. Physical Principals</span></li>
-      <li class="courses"><span>Nano Eng. Chem. Principals</span></li>
-      <li class="courses"><span>Nano Eng. Biochem. Principals</span></li>
-      <li class="courses"><span>Modeling Nanoscale Systems</span></li>
-      <li class="courses"><span>Characterization of Nano Sys.</span></li>
-      <li class="courses"><span>Synthesis & Fab. of Nano Sys.</span></li>
+      <li>Nano Eng. Physical Principals</li>
+      <li>Nano Eng. Chem. Principals</li>
+      <li>Nano Eng. Biochem. Principals</li>
+      <li>Modeling Nanoscale Systems</li>
+      <li>Characterization of Nano Sys.</li>
+      <li>Synthesis &amp; Fab. of Nano Sys.</li>
     </ul></td>
     <td><ul>
-      <li class="courses"><span>Mats. Science &amp; Eng.</span></li>
-      <li class="courses"><span>Physical Props. of Mats.</span></li>
-      <li class="courses"><span>Thermodynamics of Mats.</span></li>
-      <li class="courses"><span>Phase Transform. &amp; Kinetics</span></li>
-      <li class="courses"><span>Elec., Dielec., &amp; Magnetic<br> Props. of Mats.</span></li>
+      <li>Mats. Science &amp; Eng.</li>
+      <li>Physical Props. of Mats.</li>
+      <li>Thermodynamics of Mats.</li>
+      <li>Phase Transform. &amp; Kinetics</li>
+      <li>Elec., Dielec., &amp; Magnetic<br> Props. of Mats.</li>
     </ul></td>
     <td><ul>
-      <li class="courses"><span>Mech.&nbsp;Behavior<br> of Materials</span></li>
-      <li class="courses"><span>Mechanics of<br> Nanomaterials</span></li>
-      <li class="courses"><span>Fluid<br> Mechanics</span></li>
+      <li>Mech.&nbsp;Behavior<br> of Materials</li>
+      <li>Mechanics of<br> Nanomaterials</li>
+      <li>Fluid<br> Mechanics</li>
     </ul></td>
     <td><ul>
-      <li class="courses"><span>Analog Circuits</span></li>
+      <li>Analog Circuits</li>
       <br>
-      <li class="courses"><span>Digital Circuits</span></li>
+      <li>Digital Circuits</li>
       <br>
-      <li class="courses"><span>Components &amp;<br> Circuits</span></li>
+      <li>Components &amp;<br> Circuits</li>
     </ul></td>
     <td><ul>
-      <li class="courses"><span>Quantum<br> Physics</span></li>
+      <li>Quantum<br> Physics</li>
       <br>
-      <li class="courses"><span>Organic<br> Chem. I.<br> &amp; II.</span></li>
+      <li>Organic<br> Chem. I.<br> &amp; II.</li>
     </ul></td>
   </tr>
 </table>
