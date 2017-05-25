@@ -27,9 +27,9 @@ h1{letter-spacing:0.02em; word-spacing:0.3em;}
 
 #contactinfo{letter-spacing:0.06em; margin-top:0.5em;}
 
-hr{margin:0.5em 8% 0 -1.2%;}
+hr{margin:0.5em 1em 0 -0.7em;}
 
-h3{margin:0.28em 0 0.4em 0; font-size:1.3em; text-decoration:underline;}
+h3{margin:0.28em 0 0.4em 0; font-size:1.3em;} /* text-decoration:underline;} */
 
 ul{list-style-type:none;} /* Remove <ul> list bullets */
 li:before{content:"\2022";} /* Add bullet-character to start of each <li>. (CSS: "\2022" same as HTML: "&bull;") */
@@ -38,12 +38,12 @@ ul.exp{margin-left:1em;} /* Indentation of bulleted material in Experience secti
 #coursework li{text-indent:-0.86em; padding-left:0.86em;} /* Larger hanging-indent for the coursework table. */
 #coursework ul{padding:0 0.3em 0 0;}
 
-#textbox{overflow:hidden; width:90%;}
+#textbox{overflow:hidden; width:950px;}
 
-#experience{width:90%;}
+#experience{width:950px;}
 
 .topics{
-width:90%;
+width:950px;
 display:-webkit-flex; /* Safari */
 -webkit-justify-content:space-between; /* Safari 6.1+ */
 display:flex;
@@ -51,8 +51,9 @@ justify-content:space-between;
 }
 
 .courseworkHeader{font-weight:bold; border-bottom:1px solid #000; margin-left:-0.86em;}
+#coursework ul{margin-top:0.25em;} /* Add extra space between headers and lists. */
 #coursework{
-width:90%;
+width:950px;
 /* table-layout:fixed; */
 border-collapse:separate;
 border-spacing:0px;
